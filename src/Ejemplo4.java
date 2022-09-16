@@ -5,15 +5,11 @@ public class Ejemplo4 {
         int number1;
         int number2;
 
+        Scanner introducir = new Scanner(System.in);
         System.out.println("Introduce el primer numero");
-        Scanner introducir1;
-        introducir1 = new Scanner(System.in);
-        number1 = introducir1.nextInt();
-
+        number1 = introducir.nextInt();
         System.out.println("Introduce el segundo numero");
-        Scanner introducir2;
-        introducir2 = new Scanner(System.in);
-        number2 = introducir2.nextInt();
+        number2 = introducir.nextInt();
 
         int summing = number1 + number2;
         int substracting = number1 - number2;
